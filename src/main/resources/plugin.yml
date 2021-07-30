@@ -1,0 +1,9 @@
+name: SimuANNI
+version: @version@
+main: jp.simplespace.simuanni.SimuANNI
+api-version: 1.17
+depend: [ WorldEdit ]
+softdepend: [ WorldEdit ]
+authors: [ Matchan, Simu ]
+description: しむANNI
+website: https://simplespace.jp
