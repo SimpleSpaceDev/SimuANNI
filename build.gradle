@@ -12,6 +12,7 @@ targetCompatibility = '1.8'
 
 repositories {
     mavenCentral()
+    mavenLocal();
     maven {
         name = 'spigotmc-repo'
         url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
@@ -28,7 +29,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
-    compileOnly 'com.sk89q.worldedit:worldedit-bukkit:6.1.2-SNAPSHOT'
+    compileOnly 'com.sk89q.worldedit:worldedit-bukkit:6.1.2'
 }
 
 processResources {
